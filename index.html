@@ -49,46 +49,39 @@
                 <img src="./images/Twitter-transparent.png" width="40" alt="">
             </a> -->
         </div>
-        <div class="bg-black py-6 flex items-center justify-between px-10">
+        <div class="bg-black py-6 flex items-center justify-between px-[5%]">
             <div>
                 <img src="./images/logo.png" width="100" alt="">
             </div>
-            <div class="flex items-center">
-                <nav class="flex items-center gap-10 navbar">
-                    <a href="">
-                        Meet the team
-                    </a>
-                    <a href="">
-                        About Us
-                    </a>
-                    <a href="">
-                        Gallery
-                    </a>
-                    <a href="">
+            <!-- desktop navbar -->
+        <nav class="desktop-menu hidden lg:flex gap-10 items-center">
+            <a class="hover:scale-[1.1] duration-200 ease text-xl font-bold" href="#">Meet The Team </a>
+            <a class="hover:scale-[1.1] duration-200 ease text-xl font-bold" href="#">About Us</a>
+            <a class="hover:scale-[1.1] duration-200 ease text-xl font-bold" href="#">Gallery</a>
+            <a href="#contact" class="book-online hover:text-white">BOOK ONLINE</a>
+        </nav>
 
-                    </a>
-                </nav>
-                <a href="#contact" class="book-online">
-                    Book Online
-                </a>
-            </div>
+        <button id="hamburger" class="lg:hidden flex flex-col gap-1.5 relative z-[90]">
+            <span class="w-6 h-0.5 bg-primary active transition-all duration-300"></span>
+            <span class="w-6 h-0.5 bg-primary transition-all duration-300"></span>
+            <span class="w-6 h-0.5 bg-primary transition-all duration-300"></span>
+        </button>
+
+        <!-- mobile navbar -->
+        <nav id="mobile-nav"
+            class="fixed z-[99] inset-x-0 top-0 h-screen bg-black transform translate-x-full transition-transform duration-300 lg:hidden flex flex-col gap-5 justify-center items-center text-2xl text-secondary lg:text-lg">
+            <div class="text-primary absolute right-10 top-10" id="close">x</div>
+            <a class="hover:scale-[1.1] duration-200 ease text-xl   " href="#">Meet The Team </a>
+            <a class="hover:scale-[1.1] duration-200 ease text-xl   " href="#">About Us</a>
+            <a class="hover:scale-[1.1] duration-200 ease text-xl   " href="#">Gallery</a>
+        </nav>
         </div>
     </header>
+
     <main>
 
         <section class="hero h-[80vh]">
-            <!-- <div class="px-[10%] hero-content h-full flex flex-col justify-center items-start relative z-10">
-                <h1 class="heading text-white text-7xl leading-[5rem]">
-                    COPELAND <br>
-                    CONTRACTING
-                </h1>
-                <p class="text-white">
-                    Excellent Service / Always on-time / Easy Booking
-                </p>
-                <a class="book-online mt-10 text-base" href="">
-                    GET A QOUTE
-                </a>
-            </div> -->
+            
         </section>
 
         <section class="bg-black flex flex-col md:flex-row items-center justify-center lg:gap-48 py-10">
@@ -1097,7 +1090,7 @@
                       <svg class="w-5 h-5">
                         <!-- Include your FaLocationDot SVG here -->
                       </svg>
-                      <a href="https://maps.app.goo.gl/g7VJ6Sg1XWLKNqTb8" target="_blank">
+                      <a href="https://maps.app.goo.gl/NGC6gzFgLkK41BhK7" target="_blank">
                         Fort Wayne, Indiana
                       </a>
                     </li>

@@ -1,4 +1,17 @@
-            const swiper = new Swiper('.swiper-container', {
+
+const hamburger = document.getElementById("hamburger");
+const mobileNav = document.getElementById("mobile-nav");
+const close = document.getElementById("close")
+
+hamburger.addEventListener("click", () => {
+    mobileNav.classList.toggle("active");
+});
+close.addEventListener("click", () => {
+    mobileNav.classList.toggle("active");
+})
+
+
+const swiper = new Swiper('.swiper-container', {
                 loop: true,
                 navigation: {
                     nextEl: '.swiper-button-next',
