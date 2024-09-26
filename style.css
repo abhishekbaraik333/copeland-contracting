@@ -274,6 +274,68 @@ nav a:hover{
     width: 25px !important;
   }
 
+
+  label {
+    color: #ebc888;
+    display: block;
+    margin-bottom: 5px;
+    font-weight: 500;
+  }
+
+  input[type="text"],
+  input[type="email"],
+  input[type="tel"],
+  select,
+  textarea {
+    width: 100%;
+    padding: 10px !important;
+    margin-bottom: 15px;
+    border: 1px solid #cccccc;
+    border-radius: 5px;
+    box-sizing: border-box;
+  }
+
+  input[type="submit"] {
+    background-color: #007bff;
+    color: #ffffff;
+    border: none;
+    padding: 10px 20px;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 16px;
+    width: 100%;
+  }
+
+  input[type="radio"]{
+    scale: 1.2;
+  }
+
+  input[type="submit"]:hover {
+    background-color: #0056b3;
+  }
+
+  footer ul li a {
+    color: white;
+    transition: all 0.2s;
+
+  }
+  footer ul li {
+    color: white;
+    transition: all 0.2s;
+  }
+  footer ul li a:hover {
+    color: var(--primary);
+  }
+  footer ul li:hover {
+    color: var(--primary);
+  }
+
+  @media screen and (max-width: 600px) {
+    form {
+      width: 90%;
+    }
+  }
+
   @media (max-width: 1024px) {
     .reviews {
       flex-direction: column;
