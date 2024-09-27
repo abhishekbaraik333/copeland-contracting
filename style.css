@@ -68,9 +68,23 @@ nav a:hover{
 }
 
 .hero{
-    background: url(./images/black-owned.png) center no-repeat;
-    background-size: contain;
+    background: url(./images/hero-img.jpeg)  no-repeat;
+    background-size: cover;
+    background-position:top ;
     position: relative;
+}
+
+.hero-overlay{
+  position: absolute;
+  top: 0;
+  height: 100%;
+  width: 100%;
+  background: rgba(0,0,0,0.3);
+}
+
+.second img{
+  height: 400px;
+  width: 400px;
 }
 
 
