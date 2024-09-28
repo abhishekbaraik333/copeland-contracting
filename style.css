@@ -436,6 +436,8 @@ nav a:hover{
   @media screen and (max-width: 600px) {
     .drainage-container{
       grid-template-columns: repeat(2,1fr);
+      padding: 5%;
+
     }
   }
   @media (min-width:641px) and (max-width: 1023px) {
