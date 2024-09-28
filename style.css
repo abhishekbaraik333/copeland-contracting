@@ -306,6 +306,16 @@ nav a:hover{
     width: 25px !important;
   }
 
+  .service-list li a{
+    color: var(--primary);
+    border-top: 1px solid var(--primary);
+    font-size: 18px;
+  }
+
+  .last-li a {
+    border-bottom: 1px solid var(--primary);
+
+  }
 
   label {
     color: #ebc888;
