@@ -416,6 +416,33 @@ nav a:hover{
     }
   }
 
-  @media (max-width:640px) {
-    
+  /* Drainage */
+
+  .drainage-container{
+    padding: 5% 10%;
+    display: grid;
+    grid-template-columns: repeat(5,1fr);
+    gap: 20px;
   }
+
+  .drainage-card{
+    padding: 10px 20px;
+    border-top: 4px solid var(--primary) ;
+    border-bottom: 1px solid black;
+    border-left: 1px solid black;
+    border-right: 1px solid black;
+  }
+
+  @media screen and (max-width: 600px) {
+    .drainage-container{
+      grid-template-columns: repeat(2,1fr);
+    }
+  }
+  @media (min-width:641px) and (max-width: 1023px) {
+    .drainage-container{
+      grid-template-columns: repeat(3,1fr);
+    }
+  }
+
+
+  /* Drainage Ends */
