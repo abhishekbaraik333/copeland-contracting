@@ -376,6 +376,9 @@ nav a:hover{
     form {
       width: 90%;
     }
+    .card-p{
+      height: inherit;
+    }
   }
 
   @media (max-width: 1024px) {
