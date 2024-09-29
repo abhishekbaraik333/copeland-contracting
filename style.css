@@ -449,3 +449,26 @@ nav a:hover{
 
 
   /* Drainage Ends */
+
+  /* Plumbing  */
+
+  .plumbing-list{
+    margin-top: 30px;
+    display: grid;
+    grid-template-columns: repeat(2,1fr);
+    gap: 20px;
+  } 
+
+  .plumbing-list li{
+    display: flex;
+    align-items: center;
+    gap: 10px;
+  }
+
+  @media screen and (max-width: 600px) {
+    .plumbing-list{
+      grid-template-columns: repeat(1,1fr);
+    }
+  }
+
+  /* Plumbing Ends  */
