@@ -5,11 +5,8 @@ const close = document.getElementById("close")
 
 hamburger.addEventListener("click", () => {
     mobileNav.classList.toggle("active");
+    hamburger.classList.toggle("active")
 });
-close.addEventListener("click", () => {
-    mobileNav.classList.toggle("active");
-})
-
 
 const swiper = new Swiper('.swiper-container', {
                 loop: true,

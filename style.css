@@ -472,3 +472,53 @@ nav a:hover{
   }
 
   /* Plumbing Ends  */
+
+  /* About */
+
+  .about-company{
+    background: url(./images/renovation-afba2642-2224-4fb5-9571-d85519651400.jpg) no-repeat;
+    background-size: cover;
+    background-position: 50% 6%;
+  }
+
+  .about-card{
+    display: flex;
+    gap: 50px;
+  }
+
+  .about-img-container{
+    border: 1px solid black;
+  }
+
+  .about-img{
+    position: relative;
+    left: 10px;
+    top: 10px;
+  }
+
+  .about-content{
+    display: flex;
+    flex-direction: column;
+    align-items: start;
+    justify-content: start;
+    gap: 10px;
+  }
+
+  .about-svg{
+    border-radius: 10px;
+  }
+
+  .about-heading{
+    font-size: 42px;
+    color: var(--primary);
+  }
+
+  .about-para{
+    line-height: 2rem;
+  }
+
+  @media screen and (max-width: 600px) {
+    .about-card{
+      flex-direction: column;
+    }
+  }
