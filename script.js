@@ -8,6 +8,8 @@ hamburger.addEventListener("click", () => {
     hamburger.classList.toggle("active")
 });
 
+
+
 const swiper = new Swiper('.swiper-container', {
                 loop: true,
                 navigation: {
