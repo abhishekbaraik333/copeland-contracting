@@ -476,8 +476,8 @@ nav a:hover{
   /* About */
 
   .about-company{
-    background: url(./images/renovation-afba2642-2224-4fb5-9571-d85519651400.jpg) no-repeat;
-    background-size: cover;
+    background: url(./images/our-story.png) no-repeat;
+    background-size: contain;
     background-position: 50% 6%;
   }
 
