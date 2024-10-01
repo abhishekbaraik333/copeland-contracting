@@ -546,8 +546,8 @@ footer ul li:hover {
 
 .team-card {
   position: relative;
-  width: 350px;
-  height: 400px;
+  width: 550px;
+  height: 600px;
   overflow: hidden;
   box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
   transition: transform 0.3s ease;
@@ -578,7 +578,7 @@ footer ul li:hover {
 
 .team-card h3 {
   margin: 0;
-  font-size: 18px;
+  font-size: 24px;
 }
 
 .team-card .bio {
@@ -599,7 +599,7 @@ footer ul li:hover {
   .team-card .card-content{
     transform: translateY(0) !important;
   }
-  
+
   .team-card{
     width: 100%;
   }
