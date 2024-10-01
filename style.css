@@ -522,3 +522,11 @@ nav a:hover{
       flex-direction: column;
     }
   }
+
+  /* Meet The Team */
+
+  .meet-banner{
+    background: url(./images/meet-banner.jpeg) no-repeat;
+    background-size: contain;
+    background-position: 50% 24%;
+  }
