@@ -599,4 +599,11 @@ footer ul li:hover {
   .team-card .card-content{
     transform: translateY(0) !important;
   }
+  
+  .team-card{
+    width: 100%;
+  }
+  .team-section{
+    padding: 0 5%;
+  }
 }
