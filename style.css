@@ -595,6 +595,7 @@ footer ul li:hover {
 @media screen and (max-width: 600px) {
   .bio {
     opacity: 1 !important;
+    font-size: 12px !important;
   }
   .team-card .card-content{
     transform: translateY(0) !important;
