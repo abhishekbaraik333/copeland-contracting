@@ -102,57 +102,33 @@
     </header>
 
     <main>
-        <section class="bg-white px-4 lg:py-0 lg:px-[5%]">
-            <div class="h-full w-full flex flex-col justify-between items-start py-[20px] lg:py-0">
-                <h1 class="text-[24px] md:text-[48px] font-bold">OUR PROJECTS</h1>
-                <div class="flex flex-col md:flex-row justify-between w-full mt-6">
+        <section class="bg-white  py-10 px-[5%] relative">
+            <div class="h-full w-full flex flex-col justify-between items-center py-[20px] lg:py-0 ">
+                <h1 class="text-4xl lg:text-8xl heading text-primary ">OUR PROJECTS</h1>
+                <div class="flex flex-col justify-between w-full mt-6">
                     <!-- Filter buttons -->
-                    <div class=" text-[20px] lg:text-[48px] flex md:flex-col gap-5 justify-center md:justify-start items-start flex-wrap">
+                    <div class="sticky top-10 text-[16px] lg:text-[20px] flex gap-5 justify-center items-center flex-wrap">
                         <h5 class="opacity-80 links" data-category="all">All</h5>
-                        <h5 class="text-black links" data-category="news">News</h5>
-                        <h5 class="text-black links" data-category="press-release">Press Release</h5>
+                        <h5 class="text-black links" data-category="new-construction">New Construction</h5>
+                        <h5 class="text-black links" data-category="service">Service</h5>
+                        <h5 class="text-black links" data-category="remodel">Remodel</h5>
                     </div>
                     <!-- News items -->
-                    <div class="bento" id="news-container">
-                        <div class="news news1" data-category="press-release">
-                            <p class="news-date">
-                                12th Aug 2024 <br>
-                                Press Release
-                            </p>
-                            <p class="news-content">
-                                Minutes of the Annual General Meeting 2024 of ULTIMA CAPITAL SA
-                            </p>
-                            <img src="./images/arrow.svg" class="news-arrow" alt="">
+                    <div class="bento mt-20" id="news-container">
+                        <div class="news news1" data-category="new-construction">
+                            <img src="./images/cynthia copeland.jpeg" alt="">
                         </div>
-                        <div class="news news2" data-category="press-release">
-                            <p class="news-date">
-                                12th Aug 2024 <br>
-                                Press Release
-                            </p>
-                            <p class="news-content">
-                                Ultima Capital SA announces Annual General Meeting 2024 results: shareholders approve most of the motions
-                            </p>
-                            <img src="./images/arrow.svg" class="news-arrow" alt="">
+                        <div class="news news2" data-category="new-construction">
+                            <img src="./images/why-choose-img.jpeg" alt="">
                         </div>
-                        <div class="news news3" data-category="news">
-                            <p class="news-date">
-                                10th Aug 2024 <br>
-                                News
-                            </p>
-                            <p class="news-content">
-                                ULTIMA CAPITAL SA has announced its new strategic investment plan for 2024.
-                            </p>
-                            <img src="./images/arrow.svg" class="news-arrow" alt="">
+                        <div class="news news3" data-category="service">
+                            <img src="./images/Shawn hagler.jpeg" alt="">
                         </div>
-                        <div class="news news4" data-category="news">
-                            <p class="news-date">
-                                11th Aug 2024 <br>
-                                News
-                            </p>
-                            <p class="news-content">
-                                ULTIMA CAPITAL SA releases their 2024 market report.
-                            </p>
-                            <img src="./images/arrow.svg" class="news-arrow" alt="">
+                        <div class="news news4" data-category="service">
+                            <img src="./images/boiler-E899983A-1457-4C13-89F2-F197DC66442F-logo.jpg" alt="">
+                        </div>
+                        <div class="news news4" data-category="remodel">
+                            <img src="./images/david sain.jpeg " alt="">
                         </div>
                     </div>
                 </div>
@@ -160,7 +136,7 @@
         </section>
 
         <!-- Contact us -->
-        <section class="px-[5%] pb-10 lg:px-[25%] ">
+        <section class="px-[5%] pb-10 lg:px-[25%] mt-52">
             <div class="flex flex-col gap-5 items-center text-center">
                 <h3 class="heading text-4xl uppercase">
                     Contact Us Today
