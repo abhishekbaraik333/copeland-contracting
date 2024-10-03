@@ -4,7 +4,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Plumbing - Copeland Contracting</title>
+    <title>Meet The Team - Copeland Contracting</title>
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Teko:wght@300..700&display=swap" rel="stylesheet">
@@ -102,217 +102,61 @@
     </header>
 
     <main>
-        <section class="px-[5%] py-5 lg:py-20">
-            <div class="flex gap-10 flex-col lg:flex-row">
-                <div class="lg:w-1/2 flex flex-col gap-5 items-start">
-                    <h3 class="heading uppercase text-primary text-4xl">
-                        Plumbing
-                    </h3>
-                    <p class="leading-[2rem] ">
-                        Regular plumbing maintenance is key to avoiding costly repairs. From detecting hidden leaks to
-                        cleaning drains, maintaining your plumbing helps avoid unexpected breakdowns. In Fort Wayne and
-                        Fort Wayne, where older homes are common, routine maintenance and timely repairs can extend the
-                        life of your plumbing system. Our professional plumbers at Copeland Contracting address
-                        everything from clogs to water pressure issues, keeping your home's plumbing running smoothly.
-                    </p>
-                    <a href="#contact" class="book-online">
-                        GET A QUOTE
-                    </a>
-                </div>
-                <div class="lg:w-1/2 h-[400px] overflow-hidden">
-                    <img src="./images/drainage-1.jpeg" class="w-full h-full object-cover" alt="">
+        <section class="bg-white px-4 lg:py-0 lg:px-[5%]">
+            <div class="h-full w-full flex flex-col justify-between items-start py-[20px] lg:py-0">
+                <h1 class="text-[24px] md:text-[48px] font-bold">OUR PROJECTS</h1>
+                <div class="flex flex-col md:flex-row justify-between w-full mt-6">
+                    <!-- Filter buttons -->
+                    <div class=" text-[20px] lg:text-[48px] flex md:flex-col gap-5 justify-center md:justify-start items-start flex-wrap">
+                        <h5 class="opacity-80 links" data-category="all">All</h5>
+                        <h5 class="text-black links" data-category="news">News</h5>
+                        <h5 class="text-black links" data-category="press-release">Press Release</h5>
+                    </div>
+                    <!-- News items -->
+                    <div class="bento" id="news-container">
+                        <div class="news news1" data-category="press-release">
+                            <p class="news-date">
+                                12th Aug 2024 <br>
+                                Press Release
+                            </p>
+                            <p class="news-content">
+                                Minutes of the Annual General Meeting 2024 of ULTIMA CAPITAL SA
+                            </p>
+                            <img src="./images/arrow.svg" class="news-arrow" alt="">
+                        </div>
+                        <div class="news news2" data-category="press-release">
+                            <p class="news-date">
+                                12th Aug 2024 <br>
+                                Press Release
+                            </p>
+                            <p class="news-content">
+                                Ultima Capital SA announces Annual General Meeting 2024 results: shareholders approve most of the motions
+                            </p>
+                            <img src="./images/arrow.svg" class="news-arrow" alt="">
+                        </div>
+                        <div class="news news3" data-category="news">
+                            <p class="news-date">
+                                10th Aug 2024 <br>
+                                News
+                            </p>
+                            <p class="news-content">
+                                ULTIMA CAPITAL SA has announced its new strategic investment plan for 2024.
+                            </p>
+                            <img src="./images/arrow.svg" class="news-arrow" alt="">
+                        </div>
+                        <div class="news news4" data-category="news">
+                            <p class="news-date">
+                                11th Aug 2024 <br>
+                                News
+                            </p>
+                            <p class="news-content">
+                                ULTIMA CAPITAL SA releases their 2024 market report.
+                            </p>
+                            <img src="./images/arrow.svg" class="news-arrow" alt="">
+                        </div>
+                    </div>
                 </div>
             </div>
-        </section>
-
-        <section class="lg:px-[5%] mt-20  py-10 service-areas flex flex-col lg:flex-row items-center gap-10">
-            <div class="overflow-hidden w-full lg:w-1/2">
-                <img src="./images/plumbing-1.jpeg" alt="">
-            </div>
-            <div class="px-[5%] lg:px-0 mt-10 lg:mt-0 lg:w-1/2">
-                <h3 class="heading text-4xl uppercase text-primary ">Common Plumbing Issues We Can Help With</h3>
-                <p class="mt-5">Are you seeing drips? Are your pipes making strange gurgling sounds? Even these small
-                    indicators could mean there is a potential issue within your plumbing system. It's essential to keep
-                    these minor issues from getting worse, by calling in our experienced plumbers to support you with
-                    plumbing repairs. Here are some common plumbing problems to look out for:
-                </p>
-                <ul class="plumbing-list">
-                    <li>
-                        <div class="bg-primary flex items-center justify-center rounded-full p-[5px] w-[30px] h-[30px]">
-                            <svg data-name="Layer 1" class="invert" xmlns="http://www.w3.org/2000/svg"
-                                viewBox="0 0 16 16">
-                                <path d="m2.67 7.63 2.79 2.78 7.87-7.87 1.52 1.52-9.39 9.4-4.31-4.31 1.52-1.52z" />
-                            </svg>
-                        </div>
-                        <p>Slow drains</p>
-                    </li>
-                    <li>
-                        <div class="bg-primary flex items-center justify-center rounded-full p-[5px] w-[30px] h-[30px]">
-                            <svg data-name="Layer 1" class="invert" xmlns="http://www.w3.org/2000/svg"
-                                viewBox="0 0 16 16">
-                                <path d="m2.67 7.63 2.79 2.78 7.87-7.87 1.52 1.52-9.39 9.4-4.31-4.31 1.52-1.52z" />
-                            </svg>
-                        </div>
-                        <p>
-                            Dripping showerheads</p>
-                    </li>
-                    <li>
-                        <div class="bg-primary flex items-center justify-center rounded-full p-[5px] w-[30px] h-[30px]">
-                            <svg data-name="Layer 1" class="invert" xmlns="http://www.w3.org/2000/svg"
-                                viewBox="0 0 16 16">
-                                <path d="m2.67 7.63 2.79 2.78 7.87-7.87 1.52 1.52-9.39 9.4-4.31-4.31 1.52-1.52z" />
-                            </svg>
-                        </div>
-                        <p>Leaky faucets or plumbing fixtures</p>
-                    </li>
-                    <li>
-                        <div class="bg-primary flex items-center justify-center rounded-full p-[5px] w-[30px] h-[30px]">
-                            <svg data-name="Layer 1" class="invert" xmlns="http://www.w3.org/2000/svg"
-                                viewBox="0 0 16 16">
-                                <path d="m2.67 7.63 2.79 2.78 7.87-7.87 1.52 1.52-9.39 9.4-4.31-4.31 1.52-1.52z" />
-                            </svg>
-                        </div>
-                        <p>
-                            Sewer backups</p>
-                    </li>
-                    <li>
-                        <div class="bg-primary flex items-center justify-center rounded-full p-[5px] w-[30px] h-[30px]">
-                            <svg data-name="Layer 1" class="invert" xmlns="http://www.w3.org/2000/svg"
-                                viewBox="0 0 16 16">
-                                <path d="m2.67 7.63 2.79 2.78 7.87-7.87 1.52 1.52-9.39 9.4-4.31-4.31 1.52-1.52z" />
-                            </svg>
-                        </div>
-                        <p>Clogged drains</p>
-                    </li>
-                    <li>
-                        <div class="bg-primary flex items-center justify-center rounded-full p-[5px] w-[30px] h-[30px]">
-                            <svg data-name="Layer 1" class="invert" xmlns="http://www.w3.org/2000/svg"
-                                viewBox="0 0 16 16">
-                                <path d="m2.67 7.63 2.79 2.78 7.87-7.87 1.52 1.52-9.39 9.4-4.31-4.31 1.52-1.52z" />
-                            </svg>
-                        </div>
-                        <p>Sink flies</p>
-                    </li>
-                    <li>
-                        <div class="bg-primary flex items-center justify-center rounded-full p-[5px] w-[30px] h-[30px]">
-                            <svg data-name="Layer 1" class="invert" xmlns="http://www.w3.org/2000/svg"
-                                viewBox="0 0 16 16">
-                                <path d="m2.67 7.63 2.79 2.78 7.87-7.87 1.52 1.52-9.39 9.4-4.31-4.31 1.52-1.52z" />
-                            </svg>
-                        </div>
-                        <p>Running toilets</p>
-                    </li>
-                    <li>
-                        <div class="bg-primary flex items-center justify-center rounded-full p-[5px] w-[30px] h-[30px]">
-                            <svg data-name="Layer 1" class="invert" xmlns="http://www.w3.org/2000/svg"
-                                viewBox="0 0 16 16">
-                                <path d="m2.67 7.63 2.79 2.78 7.87-7.87 1.52 1.52-9.39 9.4-4.31-4.31 1.52-1.52z" />
-                            </svg>
-                        </div>
-                        <p>
-                            High water bills</p>
-                    </li>
-                    <li>
-                        <div class="bg-primary flex items-center justify-center rounded-full p-[5px] w-[30px] h-[30px]">
-                            <svg data-name="Layer 1" class="invert" xmlns="http://www.w3.org/2000/svg"
-                                viewBox="0 0 16 16">
-                                <path d="m2.67 7.63 2.79 2.78 7.87-7.87 1.52 1.52-9.39 9.4-4.31-4.31 1.52-1.52z" />
-                            </svg>
-                        </div>
-                        <p>Unpleasant drainage odors</p>
-                    </li>
-                    <li>
-                        <div class="bg-primary flex items-center justify-center rounded-full p-[5px] w-[30px] h-[30px]">
-                            <svg data-name="Layer 1" class="invert" xmlns="http://www.w3.org/2000/svg"
-                                viewBox="0 0 16 16">
-                                <path d="m2.67 7.63 2.79 2.78 7.87-7.87 1.52 1.52-9.39 9.4-4.31-4.31 1.52-1.52z" />
-                            </svg>
-                        </div>
-                        <p>Dirty water coming out of faucets</p>
-                    </li>
-                    <li>
-                        <div class="bg-primary flex items-center justify-center rounded-full p-[5px] w-[30px] h-[30px]">
-                            <svg data-name="Layer 1" class="invert" xmlns="http://www.w3.org/2000/svg"
-                                viewBox="0 0 16 16">
-                                <path d="m2.67 7.63 2.79 2.78 7.87-7.87 1.52 1.52-9.39 9.4-4.31-4.31 1.52-1.52z" />
-                            </svg>
-                        </div>
-                        <p>Leaky pipes</p>
-                    </li>
-                    <li>
-                        <div class="bg-primary flex items-center justify-center rounded-full p-[5px] w-[30px] h-[30px]">
-                            <svg data-name="Layer 1" class="invert" xmlns="http://www.w3.org/2000/svg"
-                                viewBox="0 0 16 16">
-                                <path d="m2.67 7.63 2.79 2.78 7.87-7.87 1.52 1.52-9.39 9.4-4.31-4.31 1.52-1.52z" />
-                            </svg>
-                        </div>
-                        <p>Noises coming from pipes and drains</p>
-                    </li>
-                    <li>
-                        <div class="bg-primary flex items-center justify-center rounded-full p-[5px] w-[30px] h-[30px]">
-                            <svg data-name="Layer 1" class="invert" xmlns="http://www.w3.org/2000/svg"
-                                viewBox="0 0 16 16">
-                                <path d="m2.67 7.63 2.79 2.78 7.87-7.87 1.52 1.52-9.39 9.4-4.31-4.31 1.52-1.52z" />
-                            </svg>
-                        </div>
-                        <p>Low water pressure</p>
-                    </li>
-                    <li>
-                        <div class="bg-primary flex items-center justify-center rounded-full p-[5px] w-[30px] h-[30px]">
-                            <svg data-name="Layer 1" class="invert" xmlns="http://www.w3.org/2000/svg"
-                                viewBox="0 0 16 16">
-                                <path d="m2.67 7.63 2.79 2.78 7.87-7.87 1.52 1.52-9.39 9.4-4.31-4.31 1.52-1.52z" />
-                            </svg>
-                        </div>
-                        <p>Frozen pipes</p>
-                    </li>
-
-                </ul>
-            </div>
-        </section>
-
-        <section class="px-[5%] py-10">
-        <div class=" border-[1px] border-zinc-800 p-4 lg:p-10">
-            <h3 class="heading text-4xl text-primary uppercase text-center">Services We Offer
-            </h3>
-            <p class="md:w-[60%] mx-auto text-center mt-5">
-                We always recommend routine maintenance and regular inspections to help homeowners and businesses avoid
-                costly repairs. Maintenance services increase the lifespan of your plumbing systems and improve the
-                overall efficiency. By addressing minor issues early on, you can avoid major problems, saving time and
-                money.
-                At Copeland Contracting, we offer a comprehensive range of services, including:
-            </p>
-            <div class="drainage-container">
-                <div class="drainage-card">
-                    <p>Leak and drain repairs</p>
-                </div>
-                <div class="drainage-card">
-                    <p>Drain cleaning and clogs</p>
-                </div>
-                <div class="drainage-card">
-                    <p>Water heater installation/maintenance</p>
-                </div>
-                <div class="drainage-card">
-                    <p>Fixture installation and repair services</p>
-                </div>
-                <div class="drainage-card">
-                    <p>Fixing leaking and frozen pipes</p>
-                </div>
-                <div class="drainage-card">
-                    <p>Toilet repair and replacements</p>
-                </div>
-                <div class="drainage-card">
-                    <p>Sump pump services</p>
-                </div>
-                <div class="drainage-card">
-                    <p>Water valves and shut-off</p>
-                </div>
-                <div class="drainage-card">
-                    <p>Garbage disposal installation/repair</p>
-                </div>
-
-            </div>
-        </div>
         </section>
 
         <!-- Contact us -->
@@ -597,12 +441,13 @@
                 </div>
             </section>
         </section>
+
     </main>
 
     <footer class="px-[5%] bg-black">
         <div class="flex flex-col gap-16 pt-[3rem] items-center justify-between">
             <div class="flex w-full flex-col lg:flex-row gap-10 justify-between">
-                <a href="/" class="img-container flex items-center justify-center" onclick="scrollToTop()">
+                <a href="/" class="img-container flex items-center justify-center">
                     <img src="./images/logo.png" alt="logo" width="250" height="250" />
                 </a>
                 <div class="grid grid-cols-1 sm:grid-cols-2 gap-8 items-center justify-center">
@@ -691,6 +536,7 @@
         </div>
 
     </footer>
+
     <script src="./script.js"></script>
 
 </body>
