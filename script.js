@@ -6,6 +6,28 @@ hamburger.addEventListener("click", () => {
   hamburger.classList.toggle("active");
 });
 
+
+document.addEventListener("DOMContentLoaded", () => {
+  const video = document.querySelector(".video-player");
+  const playButton = document.querySelector(".play-btn");
+  const info = document.querySelector(".info")
+
+  // Play video, hide play button, and show video controls
+  playButton.addEventListener("click", () => {
+      video.play();
+      info.style.display = "none";
+      playButton.style.display = "none";
+      video.setAttribute("controls", "controls"); // Add controls attribute to the video
+  });
+
+  // Show play button when video ends
+  video.addEventListener("ended", () => {
+      playButton.style.display = "block";
+      video.removeAttribute("controls"); // Remove controls when video ends
+  });
+
+});
+
 document.addEventListener("DOMContentLoaded", function () {
   const filterButtons = document.querySelectorAll(".links");
   const newsItems = document.querySelectorAll(".news");
@@ -81,3 +103,5 @@ const swiper = new Swiper(".swiper-container", {
     },
   },
 });
+
+
