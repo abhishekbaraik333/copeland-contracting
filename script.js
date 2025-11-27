@@ -44,18 +44,37 @@ document.addEventListener("DOMContentLoaded", function () {
   thumbnails.mount();
 });
 
+const options = document.querySelectorAll(".option-label");
+const inputs = document.querySelectorAll('input[name="offer"]');
 
-const options = document.querySelectorAll('.option-label');
-    const inputs = document.querySelectorAll('input[name="offer"]');
-
-    inputs.forEach(input => {
-      input.addEventListener('change', function() {
-        // Remove active class from all labels
-        options.forEach(option => {
-          option.classList.remove('active-option');
-        });
-
-        // Add active class to the clicked option's label
-        this.closest('.option-label').classList.add('active-option');
-      });
+inputs.forEach((input) => {
+  input.addEventListener("change", function () {
+    // Remove active class from all labels
+    options.forEach((option) => {
+      option.classList.remove("active-option");
     });
+
+    // Add active class to the clicked option's label
+    this.closest(".option-label").classList.add("active-option");
+  });
+});
+
+ const toggleBtn = document.getElementById('shipping-toggle');
+  const content   = document.getElementById('shipping-content');
+  const iconWrap  = document.getElementById('shipping-icon');
+
+  let open = false; // start CLOSED
+
+  toggleBtn.addEventListener('click', () => {
+    open = !open;
+
+    if (open) {
+      content.classList.remove('grid-rows-[0fr]', 'opacity-0');
+      content.classList.add('grid-rows-[1fr]', 'opacity-100');
+      iconWrap.classList.remove('rotate-180');
+    } else {
+      content.classList.remove('grid-rows-[1fr]', 'opacity-100');
+      content.classList.add('grid-rows-[0fr]', 'opacity-0');
+      iconWrap.classList.add('rotate-180');
+    }
+  });
