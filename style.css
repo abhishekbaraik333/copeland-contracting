@@ -128,3 +128,77 @@ body {
   border-color: #000000;
   border-width: 2px;
 }
+
+.reviews-container{
+  columns: 200px;
+  column-gap: 10px;
+}
+
+.testimonial{
+  break-inside: avoid; /* Prevents breaking testimonials between columns */
+  margin-bottom: 20px; /* Adds space between stacked testimonials */
+  padding: 10px 10px;
+  background-color: white;
+  border: 1px solid rgb(225, 224, 224);
+  border-radius: 7px;
+  height: fit-content;
+}
+
+.test-head{
+  display: flex;
+  align-items: center;
+  gap: 20px;
+}
+
+.test-name p{
+  font-size: 15px;
+  font-weight: 500;
+}
+
+.test-name span{
+  font-size: 13px;
+}
+
+.test-image{
+  border-radius: 50%;
+  overflow: hidden;
+  width: 40px !important;
+  height: 40px;
+  min-width: 40px;
+}
+
+.test-image img{
+  height: 100%;
+  width: 100%;
+  object-fit: cover;
+}
+
+.stars{
+  display: flex;
+  width: 100%;
+  align-items: center;
+  gap: 5px;
+  margin-top: 10px;
+}
+
+.stars svg{
+  scale: 0.8;
+  fill: #FFC83D;
+}
+
+.company img{
+  min-width: 20px;
+  min-height: 20px; 
+  max-width: 20px;
+  max-height: 20px; 
+}
+
+@media (max-width:767px) {
+  .testimonial{
+    width: 100%;
+  }
+  .faq-item{
+    padding: 0 !important;
+  }
+}
+

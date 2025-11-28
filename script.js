@@ -38,7 +38,6 @@ document.addEventListener("DOMContentLoaded", function () {
     },
   });
 
-  // Sync main slider with thumbnails
   main.sync(thumbnails);
   main.mount();
   thumbnails.mount();
